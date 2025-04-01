@@ -9,7 +9,7 @@ import Deposit from './components/Deposit';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/trading-app">
       <Routes>
         <Route
             path="/"
